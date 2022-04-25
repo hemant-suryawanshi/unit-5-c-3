@@ -1,0 +1,20 @@
+.list_container{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    justify-content: center;
+    gap: 30px;
+
+}
+.list_container>div>img{
+    width: 250px;
+
+}
+.list_container>div{
+    justify-content: center;
+    border: 5px solid rgb(179, 168, 168);
+}
+.employee_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
